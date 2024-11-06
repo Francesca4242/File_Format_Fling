@@ -284,6 +284,7 @@ img.formatprofile {
 }
 
 div.achievementtext {
+  font-size: 90%;
  
   display: inline-block;
   
@@ -439,8 +440,7 @@ img.creditspic {
 
   /* Buttons */
  button, button:hover, button:active {
-    font-size: 90%;
-    padding: 8px;
+   padding: 8px;
   }
   
   div.space-around {
@@ -513,7 +513,7 @@ This game was lovingly created by:
 
 &lt;div class=&quot;space-around&quot;&gt;&lt;&lt;button [[Continue|Question 3]] &gt;&gt;&lt;&lt;set $pointsWARC to $pointsWARC += 1&gt;&gt;&lt;&lt;/button&gt;&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="Achievements" tags="General" position="200,675" size="100,100">In this game, you will enter a dating quiz. The answers you choose and that are most similar with the answers of the corresponding formats, will decide who your perfect file format is. At the start of the game, all achievements are locked. 
 
-&lt;&lt;if $CSV_ending_achievement or $EML_ending_achievement or $FASTA_ending_achievement or $FLAC_ending_achievement or $HUS1_ending_achievement or $HUS1_ending_achievement or $WARC_ending_achievement or $Clippy_ending_achievement or $Bird_ending_achievement&gt;&gt;\
+&lt;&lt;if $CSV_ending_achievement or $EML_ending_achievement or $FASTA_ending_achievement or $FLAC_ending_achievement or $PDF_ending_achievement or $HUS1_ending_achievement or $HUS1_ending_achievement or $WARC_ending_achievement or $Clippy_ending_achievement or $Bird_ending_achievement&gt;&gt;\
 &lt;h2&gt;Unlocked achievements:&lt;/h2&gt;
 \
 &lt;&lt;if $CSV_ending_achievement&gt;&gt; &lt;p&gt;
@@ -558,7 +558,7 @@ This game was lovingly created by:
 \
 &lt;&lt;/if&gt;&gt;\
 
-&lt;&lt;if not ($CSV_ending_achievement and $EML_ending_achievement and $FASTA_ending_achievement and $FLAC_ending_achievement and $HUS1_ending_achievement and $HUS1_ending_achievement and $WARC_ending_achievement and $Clippy_ending_achievement and $Bird_ending_achievement )&gt;&gt;\
+&lt;&lt;if not ($CSV_ending_achievement and $EML_ending_achievement and $FASTA_ending_achievement and $FLAC_ending_achievement and $PDF_ending_achievement and $HUS1_ending_achievement and $HUS1_ending_achievement and $WARC_ending_achievement and $Clippy_ending_achievement and $Bird_ending_achievement )&gt;&gt;\
 \
 &lt;h2&gt;Locked achievements:&lt;/h2&gt;\
 &lt;&lt;if not $CSV_ending_achievement&gt;&gt; &lt;p&gt;
